@@ -24,3 +24,5 @@ MonoBehaviour:
     jumpForce: 5
     cameraMoveSpeed: 10
     blastForce: 8
+    blinkInterval: 0.2
+    flipSpeed: 10

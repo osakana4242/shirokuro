@@ -207,6 +207,7 @@ GameObject:
   - component: {fileID: 57420069}
   - component: {fileID: 57420071}
   - component: {fileID: 57420070}
+  - component: {fileID: 57420072}
   m_Layer: 5
   m_Name: p2
   m_TagString: Untagged
@@ -275,6 +276,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 57420068}
+--- !u!114 &57420072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 57420068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 0
 --- !u!1 &488215959
 GameObject:
   m_ObjectHideFlags: 0
@@ -495,6 +510,7 @@ GameObject:
   - component: {fileID: 938430801}
   - component: {fileID: 938430803}
   - component: {fileID: 938430802}
+  - component: {fileID: 938430804}
   m_Layer: 5
   m_Name: p1
   m_TagString: Untagged
@@ -563,6 +579,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 938430800}
+--- !u!114 &938430804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 938430800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 0
 --- !u!1 &1270937692
 GameObject:
   m_ObjectHideFlags: 0
@@ -887,6 +917,7 @@ GameObject:
   - component: {fileID: 1935554269}
   - component: {fileID: 1935554271}
   - component: {fileID: 1935554270}
+  - component: {fileID: 1935554272}
   m_Layer: 5
   m_Name: progress
   m_TagString: Untagged
@@ -953,3 +984,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1935554268}
+--- !u!114 &1935554272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1935554268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 0
