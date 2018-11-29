@@ -22,11 +22,12 @@ namespace Osk42 {
 			public float blinkInterval = 0.2f;
 			public float flipSpeed = 0.1f;
 		}
-
+#if UNITY_EDITOR
 		[UnityEditor.MenuItem("UNKO/FUGA")]
 		public static void create() {
 			var asset = CreateInstance<GameAssetData>();
 			UnityEditor.AssetDatabase.CreateAsset(asset, "Assets/data.asset");
 		}
+#endif
 	}
 }
